@@ -1,0 +1,7 @@
+Git Version
+git --Version
+
+
+Setting Username and email
+git config --global user.name abdul666
+git config --global user.email abdulnayeemna6@gmail.com
