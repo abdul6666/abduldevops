@@ -5,3 +5,18 @@ git --Version
 Setting Username and email
 git config --global user.name abdul666
 git config --global user.email abdulnayeemna6@gmail.com
+
+Installing Git Lab
+	1  sudo apt-get update
+    2  sudo apt install curl openssh-server ca-certificates 
+    3  sudo apt-get install -y postfix
+    4  curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
+    5  sudo EXTERNAL_URL="http://gitlab.example.com" apt-get install gitlab-ee
+    6  gitlab-ctl reconfigure
+
+
+Install Git   
+ 1. sudo apt-get install git
+2. git --version
+   13  git config --global user.name "abdul"
+   14  git config --global user.email "abdulnayeemna6@gmail.com"
